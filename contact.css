@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.common{
+    width: 50%;
+    height:50%;
+    margin: 70px;
+    /* padding: 20px; */
+}
+.common span{
+      font-weight:900;
+      font-size: 1.5rem;
+}

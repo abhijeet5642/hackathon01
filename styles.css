@@ -1,0 +1,209 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Header Section */
+header {
+    background-color: #333;
+    /* color: #fff; */
+    padding: 10px 20px;
+    height: 100%;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.over:hover{
+    /* color: skyblue; */
+     background-color: rgb(108, 135, 146);
+}
+
+.logo {
+    font-size: 1.5em;
+    /* font-weight: bold; */
+    text-decoration: none;
+    color: #fff;
+
+}
+
+/* Hero Section */
+.hero {
+    
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.search-bar input {
+    padding: 10px;
+    font-size: 1.1em;
+    border: none;
+    margin-right: 10px;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    font-size: 1.1em;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Featured Vehicles Section */
+.featured-vehicles {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+.featured-container
+{
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+    
+    display:flex ;
+    justify-content: space-evenly;
+}
+
+.featured-vehicles h2 {
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+.vehicle-card {
+    /* background-color: #f9f9f9; */
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    width: 250px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.vehicle-card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.vehicle-card h3 {
+    margin: 15px 0 10px 0;
+}
+
+.vehicle-card p {
+    margin-bottom: 10px;
+}
+
+.vehicle-card button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+}
+.icon{
+    height:55%;
+}
+/* .bike-icon{
+    height: 54%;
+} */
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.social-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social-links li {
+    margin: 0 10px;
+}
+
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .vehicle-card {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links li {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .hero h1 {
+        font-size: 2em;
+    }
+}
+
+.scooter-icon{
+    width: 30%;
+    /* height: fit-content; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
