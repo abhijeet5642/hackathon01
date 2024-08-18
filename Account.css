@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+.container
+{
+    max-height: 100%;
+   max-width:500px;
+   margin-inline:auto;
+   background-color:#71f573;
+ box-shadow: 10px 5px 5px 1 ;
+  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.1); 
+background-color:yellow;
+}
+.costomize
+{
+ text-align: center;
+ 
+}
+.center{
+    text-align: center;
+}
